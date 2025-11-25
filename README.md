@@ -2,6 +2,12 @@
 
 A modern, responsive, and AI-powered task management application. This project helps you organize your daily tasks while aiming to boost your productivity with an integrated calendar and a local AI assistant.
 
+
+
+https://github.com/user-attachments/assets/4d80c5c1-8e4e-4449-bc6e-87950bceaedf
+
+
+
 ## 🚀 Features
 
 - **📅 Calendar Integration:** Plan your tasks by date using the `Cally` calendar component. Instantly filter tasks for any selected day directly from the calendar.
