@@ -1,0 +1,34 @@
+/* Cally Calendar Customization */
+calendar-date {
+  /* Use DaisyUI variables for theming */
+  --color-accent: var(--color-primary); 
+  --color-text-on-accent: var(--color-primary-content);
+  
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  
+  width: 100%;
+  display: block;
+}
+
+/* Ensure calendar fits the card */
+calendar-date::part(button) {
+  border-radius: 0.5rem;
+  padding: 0.75rem; /* Larger touch targets */
+}
+
+calendar-month {
+  width: 100%;
+  --pd: 0.5rem; /* Increase padding for dates */
+}
+
+/* Make calendar grid cells larger on mobile */
+@media (max-width: 1280px) {
+  calendar-month {
+    font-size: 1.1rem;
+  }
+  
+  calendar-date::part(button) {
+    height: 3rem;
+    width: 3rem;
+  }
+}
